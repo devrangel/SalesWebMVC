@@ -11,13 +11,6 @@ namespace SalesWebMVC.Data
         {
         }
 
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<Department>(obj => {
-        //        obj.HasNoKey();
-        //    });
-        //}
-
         public DbSet<Department> Department { get; set; }
         public DbSet<Seller> Seller { get; set; }
         public DbSet<SalesRecord> SalesRecord { get; set; }
