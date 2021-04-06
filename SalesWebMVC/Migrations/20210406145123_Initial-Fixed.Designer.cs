@@ -10,8 +10,8 @@ using SalesWebMVC.Data;
 namespace SalesWebMVC.Migrations
 {
     [DbContext(typeof(SalesWebMVCContext))]
-    [Migration("20210403174333_SalesRecordAndSeller")]
-    partial class SalesRecordAndSeller
+    [Migration("20210406145123_Initial-Fixed")]
+    partial class InitialFixed
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
 namespace SalesWebMVC.Models
 {
@@ -15,9 +18,8 @@ namespace SalesWebMVC.Models
 
         }
 
-        public Department(int id, string name)
+        public Department(string name)
         {
-            this.Id = id;
             this.Name = name;
         }
 
