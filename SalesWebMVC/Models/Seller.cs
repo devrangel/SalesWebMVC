@@ -7,6 +7,7 @@ namespace SalesWebMVC.Models
     public class Seller
     {
         public int Id { get; set; }
+        public int DepartmentId { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public DateTime BirthDate { get; set; }
